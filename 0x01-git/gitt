@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -r -p "Files: " file
+read -r -p  "Messsage: " message
+
+git add $file
+git commit -m "$message"
+git push
